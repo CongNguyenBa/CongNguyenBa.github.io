@@ -1,0 +1,14 @@
+/* Header */
+#cm-header a:link {
+    color: black;
+}
+div#subcontainer1 {
+    background-color: #ccccff;
+
+}
+/* Extra */
+div#cm-extra {
+    float: right;
+    width: 300px;
+}
+/* Footer */
