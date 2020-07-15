@@ -1,42 +1,76 @@
 /* Credit goes to https://www.w3schools.com/ */
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .cm-bar,button {
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", Arial, Helvetica, sans-serif
 }
-#header {
-    font-size:200px
+#cm-header {
+    font-size: 50px;
 }
 
 /* The Whole File */
 html {
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5
 }
-
+a{
+    color: black;
+}
 /* Top Navigation */
-.topnav {
+.cm-top {
+    height: auto;
+    width: 100%;
     background-color:  #b3b3ff;
-    overflow: hidden;
-
+    overflow: auto;
+    resize: both;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #3d3dff;
 }
-.topnav a:link {
-    float: left;
-    display: block;
+
+.cm-top a {
+    display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 18px;
     text-decoration: none;
     font-size: 17px;
 }
-.topnav a:hover {
+.cm-top a:hover {
     background-color: #4d4dff;
     color: #ffff80;
 }
-.topnav a:active {
-    background-color: #0000cc;
-    color: #ff0000;
+.cm-top a:active {
+    background-color: #ffff80;
+    color: #0000cc;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* Create a layout */
+.cm-column {
+    float: left;
+}
+.cm-left-column {
+    width: 75%;
+    border-right: #0000cc 5px;
+}
+.cm-right-column {
+    width: 20%;
+    margin: 10px;
+}
+.cm-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cm-card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
