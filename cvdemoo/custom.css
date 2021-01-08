@@ -1,0 +1,21 @@
+/* This file intentionally left blank. (automatically generated) */
+
+/* Don't believe line 1 . I want to make sth fun.*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#outline-title{
+    font-weight: 700;
+}
+#header-2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+#header-3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    text-indent: 10%;
+}   
